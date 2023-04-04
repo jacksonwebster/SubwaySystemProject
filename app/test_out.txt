@@ -1,0 +1,48 @@
+*** ADDING STATIONS ***
+
+Train line A created with stations Houston, 23, 32, 47, 53, 64, 75 and price 2.75
+Train line B created with stations Canal, 3, 13, 33, 44, 47, 105 and price 4.75
+Train line C created with stations Houston, 3, 32, 33, 64, 105, 75 and price 3.25
+Train line N created with stations Canal, 18, 32, 47, 53, 59, 113 and price 1.75
+Train line 1 created with stations Houston, 23, 32, 33, 53, 69, 75 and price 3.50
+Train line 2 created with stations Spring, 3, 13, 14, 53, 69, 113 and price 1.50
+Train line 3 created with stations Spring, 14, 33, 47, 59, 64, 75 and price 2.75
+
+*** TESTING ROUTES ***
+
+Optimal route from Houston to 23: ['Houston', '23']
+Optimal route from Canal to Spring: ['Canal', '3', '3', 'Spring']
+Optimal route from Spring to 75: ['Spring', '14', '33', '33', '53', '69', '75']
+Optimal route from 3 to 113: ['3', '13', '14', '53', '69', '113']
+Optimal route from 75 to Canal: ['75', '64', '53', '47', '47', '32', '18', 'Canal']
+Optimal route from 14 to 105: ['14', '53', '53', '47', '47', '105']
+Cannot find a route from 13 to FakeSt
+
+*** TESTING CARD ENTRY ***
+
+Card 1234 has balance: 13.0
+Card aG2S has balance: 14.0
+Card sda@02 has balance: 75.3
+Card af@222 has balance: 113.0
+Card 7532 has balance: 156.0
+Card 1ad4 has balance: 0.0
+Card 1234 has balance: 15.75
+
+*** TESTING ENTERING ENDPOINT ***
+
+Card 1234 now has balance: 13.0
+Card aG2S now has balance: 11.25
+Station not Found
+Card af@222 now has balance: 108.25
+Insufficient Fare
+
+*** TESTING EXITING ENDPOINT ***
+
+Card 1234 has balance: 13.0
+Card aG2S has balance: 11.25
+Station not Found
+Card af@222 has balance: 108.25
+
+*** CLOSING DB CONNECTIONS ***
+
+Subway Instance Closed
